@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidadania</title>
+</head>
+
+<body>
+    <h1>Em qual pais vc nasceu?</h1>
+    Vc nasceu em <input type="text" nome="textpas" id="pas"> , esse e seu pais!
+    <input type="button" value="verificando" onclick="clicar()">
+    <div id="pais"></div>
+    <script>
+        function clicar() {
+
+            var textp = window.document.querySelector('input#pas')
+            var res = window.document.querySelector('div#pais')
+            var vel = String(pas.value)
+
+            res.innerHTML = `sua nacionalidade e ${vel}`
+
+            if (vel = "Brasil") {
+                res.innerHTML += `Voce e brasileiro`
+
+
+            }else()
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
